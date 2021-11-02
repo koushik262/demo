@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-28T13:01:40Z" name="Suite" finished-at="2021-10-28T13:07:48Z" duration-ms="367079">
+    <groups>
+    </groups>
+    <test started-at="2021-10-28T13:01:40Z" name="Test" finished-at="2021-10-28T13:03:20Z" duration-ms="99230">
+      <class name="com.mindtree.pageobject.HomePage">
+        <test-method is-config="true" signature="initialise()[pri:0, instance:com.mindtree.pageobject.HomePage@48793bef]" started-at="2021-10-28T18:31:40Z" name="initialise" finished-at="2021-10-28T18:32:29Z" duration-ms="48081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialise -->
+        <test-method signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.mindtree.pageobject.HomePage@48793bef]" started-at="2021-10-28T18:32:29Z" name="logintest" data-provider="getData" finished-at="2021-10-28T18:33:17Z" duration-ms="48189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[koushik]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15452]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="turnoff()[pri:0, instance:com.mindtree.pageobject.HomePage@48793bef]" started-at="2021-10-28T18:33:18Z" name="turnoff" finished-at="2021-10-28T18:33:20Z" duration-ms="1368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnoff -->
+      </class> <!-- com.mindtree.pageobject.HomePage -->
+    </test> <!-- Test -->
+    <test started-at="2021-10-28T13:03:20Z" name="validatingTile" finished-at="2021-10-28T13:03:51Z" duration-ms="30457">
+      <class name="com.mindtree.pageobject.ValidatingTitle">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.mindtree.pageobject.ValidatingTitle@36a5cabc]" started-at="2021-10-28T18:33:20Z" name="initialize" finished-at="2021-10-28T18:33:48Z" duration-ms="27239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validatingTitle()[pri:0, instance:com.mindtree.pageobject.ValidatingTitle@36a5cabc]" started-at="2021-10-28T18:33:48Z" name="validatingTitle" finished-at="2021-10-28T18:33:48Z" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatingTitle -->
+        <test-method is-config="true" signature="turnoff()[pri:0, instance:com.mindtree.pageobject.ValidatingTitle@36a5cabc]" started-at="2021-10-28T18:33:49Z" name="turnoff" finished-at="2021-10-28T18:33:51Z" duration-ms="1636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- turnoff -->
+      </class> <!-- com.mindtree.pageobject.ValidatingTitle -->
+    </test> <!-- validatingTile -->
+    <test started-at="2021-10-28T13:03:51Z" name="HindiBooks tab" finished-at="2021-10-28T13:06:54Z" duration-ms="183278">
+      <class name="com.mindtree.pageobject.HindiBooks">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.mindtree.pageobject.HindiBooks@32a68f4f]" started-at="2021-10-28T18:33:51Z" name="initialize" finished-at="2021-10-28T18:34:57Z" duration-ms="65794" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="hindibooks()[pri:0, instance:com.mindtree.pageobject.HindiBooks@32a68f4f]" started-at="2021-10-28T18:34:57Z" name="hindibooks" finished-at="2021-10-28T18:35:45Z" duration-ms="48560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hindibooks -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.mindtree.pageobject.HindiBooks@32a68f4f]" started-at="2021-10-28T18:35:50Z" name="close" finished-at="2021-10-28T18:36:54Z" duration-ms="64402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.mindtree.pageobject.HindiBooks -->
+    </test> <!-- HindiBooks tab -->
+    <test started-at="2021-10-28T13:06:54Z" name="trackorder" finished-at="2021-10-28T13:07:48Z" duration-ms="53197">
+      <class name="com.mindtree.pageobject.TrackyourOrder">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.mindtree.pageobject.TrackyourOrder@19b93fa8]" started-at="2021-10-28T18:36:54Z" name="initialize" finished-at="2021-10-28T18:37:30Z" duration-ms="35201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="trackorder()[pri:0, instance:com.mindtree.pageobject.TrackyourOrder@19b93fa8]" started-at="2021-10-28T18:37:30Z" name="trackorder" finished-at="2021-10-28T18:37:43Z" duration-ms="13270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- trackorder -->
+        <test-method is-config="true" signature="close()[pri:0, instance:com.mindtree.pageobject.TrackyourOrder@19b93fa8]" started-at="2021-10-28T18:37:44Z" name="close" finished-at="2021-10-28T18:37:48Z" duration-ms="3476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.mindtree.pageobject.TrackyourOrder -->
+    </test> <!-- trackorder -->
+  </suite> <!-- Suite -->
+</testng-results>
