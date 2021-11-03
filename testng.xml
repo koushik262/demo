@@ -12,11 +12,7 @@
       <class name="com.mindtree.pageobject.HomePage"/>
     </classes>
     </test>
-    <test thread-count="5" name="validatingTile">
-    <classes>
-      <class name="com.mindtree.pageobject.ValidatingTitle"/>
-    </classes>
-    </test>
+ 
     
     <test thread-count="5" name="HindiBooks tab">
     <classes>
