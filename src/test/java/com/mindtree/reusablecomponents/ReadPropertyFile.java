@@ -17,8 +17,7 @@ public class ReadPropertyFile {
 	public WebDriver DriverInitialisation() throws IOException {
 		// TODO Auto-generated method stub
 		p = new Properties();
-		FileInputStream fis = new FileInputStream(
-				"D:\\selinium\\selenium-programs\\pracFramework\\testdata\\configure.properties");
+		FileInputStream fis = new FileInputStream("D:\\selinium\\selenium-programs\\pracFramework\\testdata\\configure.properties");
 		p.load(fis);
 		String browserName = p.getProperty("browser");
 		if (browserName.equalsIgnoreCase("chrome")) {
